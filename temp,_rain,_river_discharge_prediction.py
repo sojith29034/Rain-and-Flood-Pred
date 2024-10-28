@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1ULKd4RO5F01kcnifM9TRrwikDwcvC9Fm
 """
 
-!pip install openmeteo-requests requests-cache retry-requests numpy pandas keras-tuner
-
 import openmeteo_requests
 import requests_cache
 import pandas as pd
@@ -266,9 +264,6 @@ plt.show()
 model.save('my_model2.keras')
 
 """# OpenAI API"""
-
-!pip install openai ipywidgets
-!pip install openai==0.28
 
 import openai
 import ipywidgets as widgets

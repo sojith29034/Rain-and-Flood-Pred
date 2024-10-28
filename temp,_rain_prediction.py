@@ -7,9 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1L7GMUA4R9KXLTfWwqF-nL52My8k-L2iR
 """
 
-# Install necessary libraries
-!pip install requests pandas matplotlib tensorflow shap lime
-
 import requests
 import pandas as pd
 import numpy as np
