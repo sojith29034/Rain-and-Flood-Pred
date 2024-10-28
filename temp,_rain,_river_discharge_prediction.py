@@ -275,7 +275,7 @@ import ipywidgets as widgets
 from IPython.display import display
 
 # Set your OpenAI API key
-openai.api_key = 'sk-proj-0p9VTUn5qz3myRLzzE1ET3BlbkFJOZzbH0vsb0SVKwbJKeY9'
+openai.api_key = YOUR_API_KEY_HERE
 
 def get_reply(prompt):
     prompt = f"{prompt}, {combined_df}"
