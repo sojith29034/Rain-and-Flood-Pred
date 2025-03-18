@@ -22,18 +22,6 @@ from tensorflow.keras.layers import LSTM, Dense, Dropout
 
 # Step 1: API Data Fetching
 def fetch_weather_data(latitude, longitude, start_date, end_date):
-    """
-    Fetch weather data from Open-Meteo API for a specific location and date range.
-
-    Args:
-        latitude (float): Latitude of the location.
-        longitude (float): Longitude of the location.
-        start_date (str): Start date for data in the format 'YYYY-MM-DD'.
-        end_date (str): End date for data in the format 'YYYY-MM-DD'.
-
-    Returns:
-        pd.DataFrame: DataFrame containing the daily weather data.
-    """
     url = f"https://archive-api.open-meteo.com/v1/archive"
     params = {
       "latitude": latitude,
