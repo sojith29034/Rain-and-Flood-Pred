@@ -12,8 +12,8 @@ model = load_model("predictions.keras")
 st.title("5-Day Weather Forecast")
 
 # User input for location
-latitude = st.number_input("Enter Latitude:", value=59.91)
-longitude = st.number_input("Enter Longitude:", value=10.75)
+latitude = st.number_input("Enter Latitude:", value=22)
+longitude = st.number_input("Enter Longitude:", value=79)
 
 yesterday = datetime.today().date() - timedelta(days=1)
 start_date = yesterday - timedelta(days=60)
